@@ -1,0 +1,36 @@
+{
+  "name": "flight-seat-recommender",
+  "version": "1.0.0",
+  "description": "Flight seat recommendation app for sunrise/sunset views",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [
+    "flight",
+    "seat",
+    "sunrise",
+    "sunset",
+    "recommendation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "suncalc": "^1.9.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.8.0",
+    "@types/suncalc": "^1.9.2",
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
