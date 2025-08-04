@@ -2,6 +2,14 @@
 
 A sophisticated web application that helps air travelers pick the best  seat for sunrise, sunset, night/moon and mountain views by calculating flight paths and sun positions. Features an interactive 2D map and immersive 3D cockpit view.
 
+<img width="1145" height="847" alt="image" src="https://github.com/user-attachments/assets/ffad9c52-ce91-46e0-a386-ac6c657da64c" />
+
+
+
+<img width="1388" height="758" alt="image" src="https://github.com/user-attachments/assets/c675c1e5-1126-405d-a304-c8ec6e5b9d76" />
+
+
+
 ## 🚀 Features
 
 ### Core Functionality
@@ -156,13 +164,7 @@ Calculates flight path and sun positions with comprehensive analysis.
 ### GET `/health`
 Health check endpoint for monitoring.
 
-## 🗺️ Supported Airports
 
-Currently supported airports:
-- **DEL** - Delhi, India (28.5562, 77.1000)
-- **JAI** - Jaipur, India (26.8282, 75.8056)
-
-*More airports can be easily added by updating the configuration*
 
 ## 🎨 Features in Detail
 
